@@ -56,7 +56,5 @@ figure figcaption span{display:inline!important;white-space:nowrap!important;max
   .grid-section>.side-label,#experience>.side-label{padding-top:0!important;margin-bottom:22px}
 }
 
-/* "A project on pause" block now lives in THE 951 section and uses the same heading style as other sections */
-.promise-title{font-size:clamp(35px,4.3vw,66px);line-height:1.08;letter-spacing:-.055em;font-weight:500}
-.archive .promise{grid-template-columns:1fr;gap:30px;margin:0 0 64px;padding-top:8px;max-width:1000px}
-.archive .promise>div{max-width:620px}
+/* "A project on pause" block in THE 951 uses the same two-column heading + copy layout as "The connection" */
+.archive .pause-intro{margin:0 0 64px;padding-top:8px}
