@@ -38,7 +38,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}.pointer-orbit{display:none}}
 @media print{.header button,.header nav,.photo>span,.skip,dialog,#navigation,.pointer-orbit{display:none!important}.reveal{opacity:1;transform:none}.hero{padding-top:20px}.hero h1{font-size:76px}.grid-section{margin-top:50px}.hero-image{max-width:700px}.promise,.experience-list article,.contact-grid{break-inside:avoid}.statement{border:1px solid var(--line)}footer{margin-top:50px}}
 
-.side-label{color:#FF0800}
+.side-label{color:#FF0800;text-transform:uppercase;letter-spacing:.06em}
 .hero h1,.section-content>h2,#story .story-intro h2,.statement h2,.contact h2{letter-spacing:-.03em}
 .story-intro{grid-template-columns:1fr;gap:28px}.story-intro .story-copy{max-width:620px}
 @media(min-width:601px){.grid-section.introduction,#experience{align-items:start;--heading-size:clamp(35px,4.3vw,66px)}.introduction>.section-content,#experience>.section-content{align-self:start}.introduction>.side-label,#experience>.side-label{align-self:start;padding-top:calc(var(--heading-size)*.18 - 2px)}#experience>.side-label{padding-top:calc(26px + var(--heading-size)*.18 - 2px)}}
