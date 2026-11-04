@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal introduction to Porsche Oakville, bringing together a lifelong Porsche connection and experience in luxury, design and technology.">
+  <title>A lifelong connection. — Porsche Oakville introduction</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="viewer/viewer.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <a href="#top" class="identity">A personal introduction.</a>
+    <span class="recipient">For Porsche Oakville</span>
+    <button id="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu</button>
+    <dialog id="navigation" aria-label="Main navigation">
+      <button id="menu-close" autofocus>Close</button>
+      <div class="menu-preview" aria-hidden="true"><span class="menu-caption">A lifelong connection.</span><img src="assets/porsche-911.jpg" alt=""><span class="menu-footnote">For Porsche Oakville</span></div>
+      <nav class="menu-links" aria-label="Page sections">
+        <a href="#top" data-preview="assets/porsche-911.jpg">Home</a>
+        <a href="#story" data-preview="assets/porsche-951-front.jpg">Story</a>
+        <a href="#experience" data-preview="assets/porsche-detail.jpg">Experience</a>
+        <a href="#perspective" data-preview="assets/porsche-detail.jpg">Perspective</a>
+        <a href="#contact" data-preview="assets/porsche-911.jpg">Let’s talk</a>
+      </nav>
+    </dialog>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="margin-note"><span>Family.<br>Design.<br>A different road.</span></div>
+      <div class="hero-content">
+        <p class="eyebrow">An introduction, not a conventional application.</p>
+        <h1 id="hero-title">A lifelong<br>connection<span class="accent">.</span></h1>
+        <div class="hero-bottom"><p>My career has been in design and technology.<br>My connection to Porsche goes back much further.</p><a class="text-link" href="#story">The story</a></div>
+        <figure class="hero-image"><div class="photo"><img src="assets/porsche-911.jpg" alt="A red Porsche 911 on a driving course, photographed from the front three-quarter angle." width="800" height="532" fetchpriority="high"></div><figcaption><span>Porsche GT3 RS / Personal Archive / 2016</span></figcaption></figure>
+      </div>
+    </section>
+    <section class="grid-section introduction" aria-labelledby="intro-title">
+      <p class="side-label">Introduction</p>
+      <div class="section-content"><h2 id="intro-title">I’ve worked in <a href="#experience">luxury</a>, built a <a href="#experience">design business</a>, and helped scale a <a href="#experience">technology company</a>.<br>Porsche has been the constant.</h2><div class="offset-copy"><p>I’m interested in exploring opportunities with Porsche Oakville. Not because my résumé follows a familiar automotive path, but because the combination of experience and personal connection might offer something useful.</p><a class="text-link" href="#contact">Start a conversation</a></div></div>
+    </section>
+    <section class="grid-section" id="story" aria-labelledby="story-title">
+      <p class="side-label">The connection</p>
+      <div class="section-content"><div class="section-top"><span class="eyebrow">It started with a 944 Turbo back in ’86</span><span class="small">Black on black.</span></div><div class="story-intro"><h2 id="story-title">I was six.<br>My father brought<br>home a Porsche.</h2><div class="story-copy"><p>That black-on-black 944 Turbo was the beginning. Attending Porsche Cup races in the late 1990s deepened the connection. In my memories of those circuits, the 951 looms largest.</p><p>Cars and motorsport became part of the bond I shared with my father. Porsche wasn’t simply a brand I admired. It was part of our story.</p></div></div><figure class="family-image"><div class="photo"><img src="assets/next-generation.jpg" alt="A child sits in the black Porsche’s driver’s seat, with a stuffed rabbit beside him." width="1800" height="1350" loading="lazy"></div><figcaption><span>The next generation / Personal archive / 2013</span></figcaption></figure><div class="promise"><h3>A project on pause.<br>A connection that isn’t.</h3><div><p>My father parked the 951 in 1994. It was never driven again. Later, I bought it from him with the intention of restoring it—so I could share those same driving experiences with him and my two sons.</p><p>He passed away six years ago after a long battle with cancer. Life intervened, and the restoration had to be put on hold.</p><p>The cars were never just cars. They were a connection to my father, and something I wanted to pass on.</p></div></div></div>
+    </section>
+    <section class="grid-section archive" aria-labelledby="archive-title">
+      <p class="side-label">The 951</p>
+      <div class="section-content">
+        <div class="section-top"><h2 id="archive-title" class="eyebrow">The car at the heart of the story.</h2><span class="small">944 Turbo / Personal archive</span></div>
+        <div class="p944" aria-label="Porsche 951 interactive 360-degree viewer">
+          <div class="p944-stage" id="stage" tabindex="0" role="group" aria-label="Rotatable Porsche 951. Drag or swipe horizontally, or use arrow keys.">
+            <img class="p944-frame" id="spinImage" src="viewer/frames/frame_001.webp" alt="Black Porsche 944 Turbo in rotating 360-degree view" width="1280" height="720" loading="lazy" decoding="async" draggable="false">
+            <span class="p944-hint" id="hint">Drag or swipe to rotate ↔</span>
+          </div>
+          <div class="p944-controls">
+            <button id="play" type="button" aria-pressed="false">Auto rotate</button>
+            <button id="reverse" type="button" aria-label="Reverse rotation direction">Reverse</button>
+            <input id="timeline" class="p944-timeline" type="range" min="0" max="95" value="0" step="1" aria-label="Rotation angle">
+            <span id="counter" class="p944-status">000° / 360°</span>
+          </div>
+          <div class="p944-caption"><p>Black on black. The 944 Turbo that started it all.</p><p>Drag to explore / Swipe on mobile</p></div>
+          <p id="spinLoading" class="p944-note" role="status"></p>
+          <noscript><p>Enable JavaScript to rotate the car. The first view is shown above.</p></noscript>
+        </div>
+        <div class="gallery" id="gallery" aria-label="Porsche 944 Turbo photo gallery">
+          <figure class="gallery-featured">
+            <div class="gallery-stage"><img id="galleryMain" src="assets/gallery/front.webp" alt="Front view of the black Porsche 944 Turbo" width="1310" height="1200" loading="lazy" decoding="async"></div>
+          </figure>
+          <div class="gallery-thumbs" id="galleryThumbs" role="group" aria-label="Other views. Select one to show it large.">
+            <button type="button" class="gallery-thumb" data-id="rear" aria-label="Show rear view"><img src="assets/gallery/rear-thumb.webp" alt="" width="360" height="270" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" data-id="three-quarter-front-right" aria-label="Show three-quarter view, front right"><img src="assets/gallery/three-quarter-front-right-thumb.webp" alt="" width="360" height="180" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" data-id="three-quarter-front-left" aria-label="Show three-quarter view, front left"><img src="assets/gallery/three-quarter-front-left-thumb.webp" alt="" width="360" height="180" loading="lazy"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grid-section" id="experience" aria-labelledby="experience-title">
+      <p class="side-label">The experience</p>
+      <div class="section-content"><h2 id="experience-title">A different road.<br>Relevant experience.</h2><div class="experience-list">
+        <article><div class="row-label">Service<span>Valet & fine dining</span></div><div><h3>Luxury starts with people.</h3><p>Five years as a valet exposed me to everything from family station wagons to the supercars of the era. Alongside work in fine dining, it helped pay for my design education and shaped my appreciation for thoughtful, personal service.</p></div></article>
+        <article><div class="row-label">Design<span>Branding & entrepreneurship</span></div><div><h3>Making a premium idea tangible.</h3><p>After working as a designer for several years, I opened an agency specializing in branding and design for the luxury condominium market. The business continues to serve clients more than ten years after I divested my shares.</p></div></article>
+        <article><div class="row-label">Technology<span>Leadership & operations</span></div><div><h3>Building beyond the brand.</h3><p>My subsequent technology career brought entrepreneurship, coaching and team building, operations, and experience scaling a venture-backed company. Different disciplines, with people and execution at their centre.</p></div></article>
+      </div></div>
+    </section>
+    <section class="grid-section perspective" id="perspective" aria-labelledby="perspective-title">
+      <p class="side-label">The perspective</p>
+      <div class="section-content"><div class="statement"><p class="eyebrow">What I could bring</p><h2 id="perspective-title">Brand understanding.<br>Customer empathy.<br>Design & technology.<br>A builder’s mindset.</h2></div><div class="perspective-bottom"><figure><div class="photo"><img src="assets/porsche-detail.jpg" alt="A man checks a tyre on the red Porsche 911 with a pressure gauge." width="800" height="532" loading="lazy"></div><figcaption>Trackside / Personal archive / 2016</figcaption></figure><div><h3>Enthusiasm is personal.<br>Contribution is practical.</h3><p>I wouldn’t present my background as a substitute for an automotive career. I see it as a complementary perspective: genuine Porsche enthusiasm, experience with premium brands, and the practical work of building businesses and teams.</p></div></div></div>
+    </section>
+    <section class="grid-section contact" id="contact" aria-labelledby="contact-title"><p class="side-label">The conversation</p><div class="section-content"><p class="eyebrow">An open invitation</p><h2 id="contact-title">Let’s start<br>with a conversation<span class="accent">.</span></h2><div class="contact-grid"><p>I’m not approaching you with a predetermined title in mind. I’d welcome the opportunity to introduce myself, hear what matters most to your team, and explore whether there’s a fit.</p></div></div></section>
+  </main>
+  <footer><span>For Porsche Oakville.<br>Independent introduction. Not affiliated with or endorsed by Porsche.</span><a class="text-link" href="#top">Back to top</a></footer>
+  <div class="pointer-orbit" aria-hidden="true"></div>
+  <script src="interactions.js"></script>
+  <script src="viewer/viewer.js" defer></script>
+  <script src="gallery.js" defer></script>
+</body>
+</html>
