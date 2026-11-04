@@ -44,11 +44,11 @@ navigation.querySelectorAll('a').forEach(link => {
   });
   const showPreview = () => {
     menuPreview.src = link.dataset.preview;
-    navigation.querySelector('.menu-caption').textContent = link.textContent;
     navigation.classList.add('preview-active');
   };
+  const hidePreview = () => navigation.classList.remove('preview-active');
   link.addEventListener('pointerenter', showPreview);
-  link.addEventListener('focus', showPreview);
+  link.addEventListener('pointerleave', hidePreview);
 });
 
 if ('IntersectionObserver' in window && !motionPreference.matches) {
